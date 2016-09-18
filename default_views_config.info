@@ -1,0 +1,5 @@
+name = Default Views Convert to Config
+description = Produces Backdrop-compatible config code from Drupal 7 hook_views_default_views() code.
+package = Development
+backdrop = 1.x
+type = module
