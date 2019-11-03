@@ -3,3 +3,4 @@ description = Produces Backdrop-compatible config code from Drupal 7 hook_views_
 package = Development
 backdrop = 1.x
 type = module
+configure = admin/structure/views/default-views-convert
