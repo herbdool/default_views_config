@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_install().
+ */
+function default_views_config_install() {
+
+  if (!backdrop_is_cli()) {
+    $t = get_t();
+    backdrop_set_message($t("Default Views to Config installed successfully. You can now !link.", array(
+      '!link' => l($t('import views'), 'admin/structure/views/default-views-convert'),
+    )));
+  }
+}
