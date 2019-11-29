@@ -8,8 +8,8 @@
  * Implements hook_menu().
  */
 function default_views_config_menu() {
-  $items['default-views-convert'] = array(
-    'title' => 'Convert',
+  $items['admin/structure/views/default-views-convert'] = array(
+    'title' => 'Convert Views',
     'description' => 'Convert Default Views to Config.',
     'page callback' => 'backdrop_get_form',
     'page arguments' => array('default_views_config_form'),
